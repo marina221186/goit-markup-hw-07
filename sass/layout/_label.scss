@@ -1,0 +1,21 @@
+.label {
+  position: absolute;
+  height: 70px;
+  width: 370px;
+  left: 0;
+  top: 0;
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-left: 91px;
+
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  transform: translateY(320%);
+}

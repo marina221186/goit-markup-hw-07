@@ -1,0 +1,48 @@
+.our-team {
+  background-color: #f5f4fa;
+  margin-bottom: 29px;
+  padding-top: 94px;
+}
+.team-person {
+  display: flex;
+  padding-bottom: 90px;
+}
+.team-item {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 0px 0px 4px 4px;
+
+      + .team-item {
+    margin-left: 30px;
+  }
+}
+.name-worker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--text-accent-color);
+  margin-bottom: 10px;
+}
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+}
+.team-picture {
+  height: 260px;
+  width: 270px;
+  left: 815px;
+  top: 1635px;
+  border-radius: 0px;
+}
+.item-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
