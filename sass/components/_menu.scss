@@ -30,7 +30,7 @@
   }
 }
 
-.menu__link-current::after {
+.menu__link--current::after {
   content: "";
   height: 4px;
   width: 100%;
