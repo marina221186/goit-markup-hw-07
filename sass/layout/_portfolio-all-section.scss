@@ -43,9 +43,7 @@
 }
 .filter-link {
   font-family: inherit;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.63;
+  @include sabTaitle (1.63,0em, 16px,500);
   text-align: center;
   color: #212121;
   border-color: transparent;
@@ -73,8 +71,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  @include heightType (100%, 100%);
   background: rgba(33, 150, 243, 0.9);
 
   color: #ffffff;
@@ -84,10 +81,7 @@
   font-family: var(--main-font);
   text-align: left;
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 0.03em;
+  @include sabTaitle (28px, 0.03em, 18px, normal);
 
   overflow: auto;
   transform: translateY(100%);
@@ -98,22 +92,16 @@
  margin-right: 93px;
 }
 .project-name {
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include sabTaitle (2, 0.06em, 18px);
   color: var(--text-accent-color);
 }
-.project-filter {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
+.project-filter{ 
+ @include sabTaitle (1.88, 0.03em, 16px, 400);
   text-align: left;
   color: #757575;
 }
 .type-picture {
-  height: 294px;
-  width: 370px;
+  @include heightType (370px,294px);
   left: 215px;
   top: 262px;
 }

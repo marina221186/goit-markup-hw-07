@@ -17,14 +17,10 @@
 }
 
 .hero__type {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include sabTaitle (1.36, 0.06em, 44px, 900);
+  @include heightType (696px,0 px,#ffffff);
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
-  width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
 }

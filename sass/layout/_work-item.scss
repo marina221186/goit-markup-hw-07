@@ -3,8 +3,7 @@
   padding-bottom: 94px;
 }
 .work-picture {
-  height: 294px;
-  width: 370px;
+  @include heightType (370px, 294px);
   left: 615px;
   top: 1061px;
   border-radius: 0px;

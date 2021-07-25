@@ -2,6 +2,9 @@
   @import "./utils/variables";
   @import "./utils/visually-hidden";
   @import "./utils/is-hidden";
+  @import "./utils/mixin";
+  @import "./utils/placeholder";
+  
    //.BASE
   @import "./base/common";
   @import "./base/conteiner";
@@ -16,7 +19,6 @@
   @import "./components/footer-link-box-second";
   @import "./components/footer-link-box-third";
   @import "./components/backdrop";
-  @import "./components/modal";
 
 
 
@@ -31,6 +33,7 @@
   @import "./layout/our-team";
   @import "./layout/our-client";
   @import "./layout/portfolio-all-section";
+  @import "./layout/modal";
 
 
 

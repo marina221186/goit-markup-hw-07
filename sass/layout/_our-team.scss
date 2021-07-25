@@ -17,25 +17,18 @@
   }
 }
 .name-worker {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include sabTaitle (1.19, 0.03em, 16px, 500);
   text-align: center;
   color: var(--text-accent-color);
   margin-bottom: 10px;
 }
 .profession {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+  @include sabTaitle (19px, 0.03em, 19px, 400);
   text-align: center;
   color: #757575;
 }
 .team-picture {
-  height: 260px;
-  width: 270px;
+  @include heightType (270px,260px);
   left: 815px;
   top: 1635px;
   border-radius: 0px;

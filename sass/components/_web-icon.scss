@@ -1,6 +1,5 @@
 .web-icon {
-  height: 44px;
-  width: 44px;
+  @include heightType (44px, 44px);
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -10,7 +9,6 @@
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  /*transition: color 250ms linear, cubic-bezier(0.4, 0, 0.2, 1);*/
 
     &:hover,
     &:focus {
@@ -33,16 +31,16 @@
 
 .web-item {
   display: flex;
-  width: 206px;
+  @include heightType (206px);
   justify-content: space-between;
-  padding-top: 20px;
+
 }
 .web-icon-top {
-  height: 20px;
-  width: 20px;
+  @include heightType (20px, 20px);
   border-radius: 50%px;
   fill: #afb1b8;
 }
+
 .icon-footer {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

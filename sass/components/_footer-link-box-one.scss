@@ -12,9 +12,7 @@
 }
 
 .footer-name {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include sabTaitle (1.14, 0.03em, 14px,none);
   text-transform: uppercase;
   color: #ffff;
   margin-bottom: 20px;
@@ -28,10 +26,7 @@
   margin-top: 9px;
 }
 .type-address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include sabTaitle (1.71);
   text-align: left;
   color: #ffff;
 

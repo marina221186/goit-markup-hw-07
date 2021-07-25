@@ -1,7 +1,5 @@
 .footer-link-box-third{
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include sabTaitle (1.14, 0.03em, 14px,none);
   text-transform: uppercase;
   color: #ffff;
 }
@@ -9,31 +7,25 @@
   display: flex;
 }
 .footer-form-input{
-  width: 358px;
-  height: 50px;
+  @include heightType (385px, 50px, #fff);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   margin-right: 12px;
   background-color:  #2F303A;
-  color: #ffff;
 
   &:hover,
   &:focus{
    border-color: var(--accent-color);
  }
   &::placeholder{
-   height: 20px;
-   width: 47px;
+    @include sabTaitle (20px, 0.03em, 16px, none);
+    @include heightType (47px, 20px, #FFFFFF99);
    padding-left: 16px;
    padding-top: 15px ;
    padding-bottom: 15px;
-   letter-spacing: 0.03em;
    font-family:var(--main-font);
-   font-size: 16px;
-   line-height: 20px;
-   color: #FFFFFF99;
  }
 }
 

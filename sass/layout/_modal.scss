@@ -3,19 +3,15 @@
   padding: 40px;
   top: 50%;
   left: 50%;
-  height: 581px;
-  width: 528px;
+  @include heightType (528px, 581px);
   background-color: #ffffff;
   transform: translate(-50%, -50%);
 }
 .modal-form-titel{
   font-family: Roboto;
  font-style: normal;
- font-weight: bold;
- font-size: 20px;
- line-height: 23px;
+ @include sabTaitle (23px, 0.03em, 20px, bold);
  text-align: center;
- letter-spacing: 0.03em;
  color: #212121;
  text-align: center;
  margin-bottom: 12px;
@@ -32,8 +28,7 @@
   margin-bottom: 10px;
 }
 .modal-form-input{
-  width:100% ;
-  height: 40px;
+  @include heightType (100%, 40px);
   border: 1px solid var(--modal-form-input);
  border-radius: 4px;
  padding-left: 42px;
@@ -52,18 +47,14 @@
 .modal-form-label{
   font-family:var(--main-font);
  font-style: normal;
- font-weight: normal;
- font-size: 12px;
- line-height: 14px;
- letter-spacing: 0.01em;
+ @include sabTaitle (14px, 0.01em, 12px, normal);
  color: #757575;
  margin-bottom: 4px;
  display: block;
 }
 
 .modal-form-textarea{
-  width: 100%;
-  height: 120px;
+  @include heightType (100%, 120px);
   border: 1px solid var(--modal-form-input);
   border-radius: 4px;
   resize: none;
@@ -73,9 +64,7 @@
    
   &::placeholder{
     font-family:var(--main-font);
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.01em;
+    @include sabTaitle (16px, 0.01em,14px);
     color: var(--textarea);
  }
   &:focus,
@@ -85,8 +74,7 @@
 }
 
 .checkbox-box{
- height: 15px;
- width: 16px;
+  @include heightType (16px, 15px);
  border: 2px solid var(--text-accent-color);
  display: block;
  border-radius: 2px;
@@ -115,9 +103,7 @@
 }
 .item-text-checkbox-box{
   font-family:var(--main-font);
- font-size: 14px;
- line-height: 24px;
- letter-spacing: 0.03em;
+  @include sabTaitle (24px, 0.03em, 14px);
  color: #757575;
 }
 .text-checkbox-box{

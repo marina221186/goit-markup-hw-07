@@ -1,7 +1,5 @@
 .title {
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  @include sabTaitle (1.17, 0.03em, 36px,);
   text-align: center;
   color: var(--text-accent-color);
   margin-bottom: 50px;

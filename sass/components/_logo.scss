@@ -8,11 +8,11 @@
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
-}
 
-.logo__letter {
-  color: black;
-}
-.letter-footer {
-  color: #ffffff;
+  &__letter {
+    color: black;
+  }
+  &__letter--footer {
+    color: #ffffff;
+  }
 }

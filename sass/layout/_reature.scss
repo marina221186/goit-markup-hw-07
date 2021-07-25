@@ -6,19 +6,14 @@
 }
 
 .reature__name {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include sabTaitle (1.14, 0.03em, 14px);
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 10px;
   color: var(--text-accent-color);
 }
 .reature__text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include sabTaitle (1.71, 0.03em,14px,400);
   text-align: left;
   color: #757575;
 }
@@ -30,8 +25,7 @@
   }
 }
 .reature__jpg {
-  width: 270px;
-  height: 120px;
+  @include heightType (270px, 120px);
   background-color: #f5f4fa;
   display: flex;
   align-items: center;
